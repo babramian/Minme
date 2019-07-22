@@ -1,20 +1,30 @@
-# Base-62-Converter
-***WRITTEN IN PYTHON***
-Python program that contains two methods, one of which converts base 10 integers to base 62 numerals, and another which does the opposite.
+# Minme URL Shortener
 
-CONTAINS:
-One test file (Base_62_Converter_Test.py), which tests the program.
-Main program file (Base_62_Converter).
+
+***Languages/Frameworks used***
+-Python
+-Flask
+-SQLAlchemy
 
 RUN INSTRUCTIONS:
 1) Clone this repository, make sure you remember what directory you've cloned it to
 
-2) Go into the directory you've downloaded the files to, create a text file and rename it '__init__.py'. This is to allow the files to interact with each other.
+2) Open your terminal and go to the directory containing this program
 
-3) Open your command prompt, this can be done by pressing the Windows key and typing 'cmd'
+3) Type 'flask db init', press Enter
 
-4) Traverse into the directory you've downlaoded the files into
+4) Type 'flask db migrate', press Enter
 
-5) Type 'python Base_62_Converter_Test.py' and press Enter
+5) Type 'flask db upgrade', press Enter
 
-The test program shall print encoded Base 62 numbers into your prompt, followed by those same numbers decoded into Base 10 integers.
+6) Your database is now initialized, run the program by typing 'flask run' and pressing enter
+
+7) Go to your local host on your browser to use the program, if you're unsure of what this is, flask should tell you in the terminal
+
+You can now use the program, type in a URL to convert it, the program will return a shortened URL, to use the shortened URL as of now you have to copy the six digits after the 'min.me/' and paste it after your local host url, like this 'localhost/123456' and you will be redirected to the original url!
+
+##WORK IN PROGRESS
+
+###Current objectives
+-Push program onto a fully functioning website
+-Get the shortened url to redirect without the local host, and with 'min.me' instead
