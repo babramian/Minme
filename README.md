@@ -2,9 +2,9 @@
 
 
 ***Languages/Frameworks used***
--Python
--Flask
--SQLAlchemy
+- Python
+- Flask
+- SQLAlchemy
 
 RUN INSTRUCTIONS:
 1) Clone this repository, make sure you remember what directory you've cloned it to
@@ -26,5 +26,5 @@ You can now use the program, type in a URL to convert it, the program will retur
 ##WORK IN PROGRESS
 
 ###Current objectives
--Push program onto a fully functioning website
--Get the shortened url to redirect without the local host, and with 'min.me' instead
+- Push program onto a fully functioning website
+- Get the shortened url to redirect without the local host, and with 'min.me' instead
