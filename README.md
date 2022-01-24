@@ -27,4 +27,4 @@ You can now use the program, type in a URL to convert it, the program will retur
 
 ###Current objectives
 - Push program onto a fully functioning website
-- Get the shortened url to redirect without the local host, and with 'min.me' instead
+- Get the shortened url to redirect through 'min.me'
